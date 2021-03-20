@@ -7,7 +7,7 @@
 #include <fstream>
 using namespace std;
 class Publicacion;
-
+class Blog;
 class Usuario
 {
 	public:

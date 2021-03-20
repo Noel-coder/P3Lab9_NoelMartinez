@@ -15,6 +15,7 @@ class Publicacion
 		string FechaPublicacion;
 	public:
 		Publicacion();
+		Publicacion(int,string,Usuario*,string,string);
 		~Publicacion();
 		void guardarPublicacion(ofstream*);
 		Publicacion* cargarPublicacion(ifstream*);

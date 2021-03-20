@@ -5,6 +5,8 @@
 #include <vector>
 #include <string>
 using namespace std;
+class Usuario;
+class Publicacion;
 class Blog
 {
 	public:
@@ -15,6 +17,8 @@ class Blog
 		Blog();
 		Blog(string);
 		~Blog();
+		void eliminarUsuario(int);
+		void actualizarPassword(string,int);
 		void verPublicaciones();
 		bool compare(Publicacion*,Publicacion*);
 		void cargarArchivos(string,string);
